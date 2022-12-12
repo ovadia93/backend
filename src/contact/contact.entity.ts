@@ -25,4 +25,7 @@ export class Contact {
 
     @Column()
     happines: number;
+
+    @Column({ type: 'boolean', default: false })
+    isCompleted?: boolean;
 }
